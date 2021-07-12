@@ -1,0 +1,16 @@
+c:\users\admin\documents\visual studio 2015\Projects\assignment2\assignment2\bin\Debug\assignment2.exe.config
+c:\users\admin\documents\visual studio 2015\Projects\assignment2\assignment2\bin\Debug\assignment1database.mdf
+c:\users\admin\documents\visual studio 2015\Projects\assignment2\assignment2\bin\Debug\assignment1database_log.ldf
+c:\users\admin\documents\visual studio 2015\Projects\assignment2\assignment2\bin\Debug\assignment2.exe
+c:\users\admin\documents\visual studio 2015\Projects\assignment2\assignment2\bin\Debug\assignment2.pdb
+c:\users\admin\documents\visual studio 2015\Projects\assignment2\assignment2\obj\Debug\assignment2.csprojResolveAssemblyReference.cache
+c:\users\admin\documents\visual studio 2015\Projects\assignment2\assignment2\obj\Debug\assignment2.Form1.resources
+c:\users\admin\documents\visual studio 2015\Projects\assignment2\assignment2\obj\Debug\assignment2.Properties.Resources.resources
+c:\users\admin\documents\visual studio 2015\Projects\assignment2\assignment2\obj\Debug\assignment2.csproj.GenerateResource.Cache
+c:\users\admin\documents\visual studio 2015\Projects\assignment2\assignment2\obj\Debug\assignment2.exe
+c:\users\admin\documents\visual studio 2015\Projects\assignment2\assignment2\obj\Debug\assignment2.pdb
+c:\users\admin\documents\visual studio 2015\Projects\assignment2\assignment2\obj\Debug\assignment2.Book_reg.resources
+c:\users\admin\documents\visual studio 2015\Projects\assignment2\assignment2\obj\Debug\assignment2.issue_book.resources
+c:\users\admin\documents\visual studio 2015\Projects\assignment2\assignment2\obj\Debug\assignment2.showRecord.resources
+C:\Users\ADMIN\Documents\Visual Studio 2015\Projects\assignment2\assignment2\obj\Debug\assignment2.returnbook.resources
+C:\Users\ADMIN\Documents\Visual Studio 2015\Projects\assignment2\assignment2\obj\Debug\assignment2.Form2.resources

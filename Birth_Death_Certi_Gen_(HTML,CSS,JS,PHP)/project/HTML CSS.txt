@@ -1,0 +1,101 @@
+Introduction to HTML5
+
+Tools we need:
+1.account in Github - Nidhi123u Nidhi@2000!*
+2. Google Chrome
+3. Sublime
+4. Git
+5. Browser Sync
+
+Development env settings
+downloand and install Git
+
+HTML - Hyper Text Markup Language
+Hypertext - Text containing link to another text (text, media)
+Markup - to mark omething up - about content - to tell browser - what this content is about
+Human readable
+Language - some syntax -code and if something is rong it will stop
+
+HTML - structure
+CSS - Color style layout font type font size
+Javascript - behavior - functionlity 
+
+HTML -annotates content, define the structure
+
+History of HTML5
+1997 - no community standards - World wide web consortium - HTML 4.0 and 4.1
+2000 - W3C XHTML 1.0 - XML - BANNED
+2004 - WHATWG: HTML - Web hypertext application tech group
+2007: W3C and WHATWG started working together
+
+Anatomy of HTML Tag
+opening and closing tags
+<p>....</p> paragraph
+p is element 
+<p> tag
+
+not closing tag <BR> <HR>
+
+can have attribute - name value pair - metadata - unique
+no space between open bracket and tag name
+no space between closing bracket and forward slash
+attribute define in opening tag
+value of attribute ' ' " "
+" ' ' "
+self closing tag - which des not contain any content <p/> wrong <p></p> correct
+
+document structure
+<!doctype html> lower or upper case - HTML 5 - tell browser it should be ready to run the HTML pages
+non complaint - querks mode
+complaint - standards mode
+
+if not declared - non complaint
+
+Content model: nested elements
+block or inline
+
+7 model
+
+block level element			Inline element
+begin with new line			same line
+contain inline or block level		contain inline only
+roughly flow				phrasing element
+
+7 type of content
+metadata
+flow
+sectioning
+heading
+phrasing
+embadded
+interactive
+
+
+heading elements/semantic element
+
+Semantic means relating to meaning in language or logic
+implies some meaning to the content
+human/ machine can understand the meaning of content by semantic element better
+SEO - Search Engine Optimisation
+
+nav - use for navigation 
+section tag -  
+article - go inside to section - can have section in between
+aside - some information that relates to the main topic - related posts
+footer
+header
+div
+
+Lists
+<ol><li></li></ol>ordered lists - and <ul><li></li></ul>unordered list - only spaces are added
+
+Character Entity Reference
+3 character escape
+<     >    &
+&lt; &gt; &amp;
+
+			
+
+
+
+
