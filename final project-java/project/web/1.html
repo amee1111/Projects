@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="stylesheet" href="Style.css" type="text/css"/>
+
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+    <body>
+        <form action="/action_page.php">
+  <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday">
+  <input type="submit">
+  
+  <input type="date" id="start" name="trip-start"
+       value=""
+       min="2000-01-01" max="2020-12-31">
+  <input type="time"  placeholder="time"  name="appt" value=""
+       min="00:00" max="12:00" required>
+  <input type="text" id="time" data-format="HH:mm" data-template="HH : mm" name="datetime" value="HH:MM">
+<script>
+$(function(){
+    $('#time').combodate({
+        firstItem: 'name', //show 'hour' and 'minute' string at first item of dropdown
+        minuteStep: 1
+    });  
+});
+</script>
+</form>
+
+    </body>
+</html>

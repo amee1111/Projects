@@ -1,0 +1,835 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 3, 2020, 2:07:53 PM
+    Author     : nidhi
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.topic{
+width: 100%;
+height: 44px;
+position: relative;
+background: #4242ae;
+top: 3%;
+padding: 5px;
+}
+
+.heading1{
+    font-size: 35px;
+    font: sans-serif;
+    text-align: center;
+    background: #009688;
+    margin: 7% auto;
+}
+
+.form-box{
+    width: 400px;
+    height: 580px;
+    position: relative;
+    margin: 3% auto;
+    background: #cccccc;
+    padding: 5px;
+    border: 2.5px solid #000;
+}
+
+.heading{
+    margin: 10% auto;
+    top: 200px;
+    font: serif;
+}
+
+.input{
+    top: 90px;
+    left: 20%;
+    position: absolute;
+    width: 300px;
+    transition: 0.5s;
+}
+
+.input-field{
+    width: 90%;
+    padding: 7px 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 0;
+    border-bottom: 2px solid #999;
+    border-left: 00;
+    border-right: 0;
+    outline: none;
+    background: transparent;
+    
+}
+
+.input-field1{
+    width: 55%;
+padding: 7px 0;
+margin: 52px 0;
+display: flex;
+justify-content: center;
+align-items: center;
+border-top: 0;
+border-bottom: 2px solid #999;
+border-left: 00;
+border-right: 0;
+outline: none;
+background: transparent;
+top: 75%;
+position: absolute;
+left: 35%;
+}
+
+.input-field2{
+    width: 90%;
+    padding: 7px 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 0;
+    border-bottom: 2px solid #999;
+    border-left: 00;
+    border-right: 0;
+    outline: none;
+    background: transparent;
+    top: 115%;
+    position: absolute;
+}
+
+.input-field3{
+    width: 90%;
+    padding: 7px 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 0;
+    border-bottom: 2px solid #999;
+    border-left: 00;
+    border-right: 0;
+    outline: none;
+    background: transparent;
+    position: absolute;
+    top: 135%;
+}
+.input-field4{
+    width: 90%;
+    padding: 7px 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 0;
+    border-bottom: 2px solid #999;
+    border-left: 00;
+    border-right: 0;
+    outline: none;
+    background: transparent;
+    position: absolute;
+    top: 155%;
+}
+
+
+.db{
+    position: absolute;
+    top: 104%;
+}
+
+
+
+.sub-btn1{
+    width: 57%;
+    padding: 20px 68px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: #999999;
+    border: 0;
+    outline: none;
+    border-radius:30px; 
+    position: absolute;
+    top: 177%;
+    left: 11%;
+}
+
+.sub-btn{
+    width: 57%;
+    padding: 20px 33px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: #999999;
+    border: 0;
+    outline: none;
+    border-radius:30px; 
+    position: absolute;
+    top: 118%;
+    left: 13%;
+    font-size: 14px;
+}
+
+.sub-btn2{
+    width: 57%;
+    padding: 20px 33px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: #999999;
+    border: 0;
+    outline: none;
+    border-radius:30px; 
+    position: absolute;
+    top: 106%;
+    left: 13%;
+    font-size: 14px;
+}
+
+.txt{
+   
+    margin-left: 46%;
+    position: absolute;
+    top: 529px;
+
+}
+
+
+.alreadyRegistered{
+   position: absolute;
+   bottom: 18px;
+  left: 17%;
+}
+
+.btn1{
+    text-transform: uppercase;
+    font-size: 18px;
+    width: 172px;
+    height: 60px;
+    border-radius: 80px;
+    line-height: 60px;
+    border: 3px solid #009688;
+    display: block;
+    text-decoration: none;
+    margin: 192px auto;
+    text-align: center;
+    padding: 0px;
+    position: absolute;
+    left: 35%;
+}
+
+.btn2{
+    text-transform: uppercase;
+    font-size: 18px;
+    width: 177px;
+    height: 60px;
+    border-radius: 80px;
+    line-height: 60px;
+    border: 3px solid #009688;
+    display: block;
+    text-decoration: none;
+    margin: 192px auto;
+    text-align: center;
+    padding: 0px;
+    position: absolute;
+    left: 49%;
+}
+
+.form-box1{
+    width: 400px;
+    height: 296px;
+    position: relative;
+    margin: 3% auto;
+    background: #cccccc;
+    padding: 5px;
+    border: 2.5px solid #000;
+}
+
+.form-box2{
+    width: 400px;
+    height: 250px;
+    position: relative;
+    margin: 3% auto;
+    background: #cccccc;
+    padding: 5px;
+    border: 2.5px solid #000;
+}
+
+.frm{
+    width: 600px;
+    height: 650px;
+    position: relative;
+    margin: 3% auto;
+    background: #ffffff;
+    padding: 5px;
+    border: 1px solid #333333;
+}
+.frm1{
+    width: 584px;
+    height: 638px;
+    position: relative;
+    margin:0% auto;
+    background: #ffffff;
+    padding: 5px;
+    border: 1px solid #333333;
+}
+
+
+.hd1{
+    margin: 6% auto;
+    top: 200px;
+    font: serif;
+    font-size: 30px;
+}
+
+.div2{
+    width: 45%;
+    padding: 10px 0;
+    margin: -59px 0;
+    display: flex;
+    left: 27%;
+    position: absolute;
+    justify-content: center;
+    border-top: 0;
+    border-bottom: 1.5px solid #999;
+    border-left: 0;
+    border-right: 0;
+    outline: none;
+    background: transparent;
+}
+
+.div3{
+    width: 36%;
+    padding: 10px 0;
+    margin: -1px 0;
+    display: flex;
+    left: 8%;
+    position: absolute;
+    justify-content: center;
+    border-top: 0;
+    border-bottom: 1.5px solid #999;
+    border-left: 0;
+    border-right: 0;
+    outline: none;
+    background: transparent;
+}
+
+.div4{
+    width: 36%;
+    padding: 10px 0;
+    margin: -55px 0;
+    display: flex;
+    left: 57%;
+    position: absolute; 
+    justify-content: center;
+    border-top: 0;
+    border-bottom: 1.5px solid #999;
+    border-left: 0;
+    border-right: 0;
+    outline: none;  
+    background: transparent;
+}
+
+.div5{
+    width: 30%;
+    padding: 10px 0;
+    margin: 7px 0;
+    display: flex;
+    left: 21%;
+    position: absolute; 
+    justify-content: center;
+    border-top: 0;
+    border-bottom: 1.5px solid #999;
+    border-left: 0;
+    border-right: 0;
+    outline: none;  
+    background: transparent;
+}
+
+.hd2{
+    position: absolute;
+    left: 11%;
+    top: 324px;
+}
+
+.hd3{
+    position: absolute;
+    left: 54%;
+    top: 324px;
+}
+
+
+.div6{
+    width: 30%;
+    padding: 10px 0;
+    margin: 7px 0;
+    display: flex;
+    left: 59%;
+    position: absolute; 
+    justify-content: center;
+    border-top: 0;
+    border-bottom: 1.5px solid #999;
+    border-left: 0;
+    border-right: 0;
+    outline: none;  
+    background: transparent;
+}
+
+.hd4{
+    position: absolute;
+    left: 32%;
+    top:384px;
+}
+
+.div7{
+    width: 35%;
+    padding: 10px 0;
+    margin: 32px 0;
+    display: flex;
+    left: 37%;
+    position: absolute; 
+    justify-content: center;
+    border-top: 0;
+    border-bottom: 1.5px solid #999;
+    border-left: 0;
+    border-right: 0;
+    outline: none;  
+    background: transparent;
+}
+
+.hd5{
+    position: absolute;
+    left: 27%;
+    top:442px;
+}
+
+.div8{
+    width: 33%;
+    padding: 10px 0;
+    margin: 34px 0;
+    display: flex;
+    left: 32%;
+    position: absolute; 
+    justify-content: center;
+    border-top: 0;
+    border-bottom: 1.5px solid #999;
+    border-left: 0;
+    border-right: 0;
+    outline: none;  
+    background: transparent;
+}
+
+.hd6{
+    position: absolute;
+    left: 68%;
+    top:442px;
+}
+
+.div9{
+    width: 33%;
+    padding: 10px 0;
+    margin: 126px 0;
+    display: flex;
+    left: 9%;
+    position: absolute; 
+    justify-content: center;
+    border-top: 0;
+    border-bottom: 2.5px solid #999;
+    border-left: 0;
+    border-right: 0;
+    outline: none;  
+    background: transparent;
+}
+
+.div10{
+    width: 33%;
+    padding: 10px 0;
+    margin: 126px 0;
+    display: flex;
+    left: 57%;
+    position: absolute; 
+    justify-content: center;
+    border-top: 0;
+    border-bottom: 2.5px solid #999;
+    border-left: 0;
+    border-right: 0;
+    outline: none;  
+    background: transparent;
+}
+
+.hd7{
+    position: absolute;
+    left: 19%;
+    top: 90%;
+}
+
+
+.hd8{
+    position: absolute;
+    left: 63%;
+    top: 90%
+}
+
+.hd9{
+    position: absolute;
+    left: 40%;
+    top: 495px;
+}
+
+.hd10{
+    position: absolute;
+    left: 12%;
+    top: 77%;
+}
+.hd11{
+    position: absolute;
+    left: 55%;
+    top: 77%;
+}
+
+.div11{
+    width: 29%;
+    padding: 10px 0;
+    margin: 130px 0;
+    display: flex;
+    left: 61%;
+    position: absolute;
+    justify-content: center;
+    border-top: 0;
+    border-bottom: 1.5px solid #999;
+    border-left: 0;
+    border-right: 0;
+    outline: none;
+    background: transparent;
+}
+
+
+.div12{
+    width: 31%;
+    padding: 10px 0;
+    margin: 130px 0;
+    display: flex;
+    left: 21%;
+    position: absolute;
+    justify-content: center;
+    border-top: 0;
+    border-bottom: 1.5px solid #999;
+    border-left: 0;
+    border-right: 0;
+    outline: none;
+    background: transparent;
+}
+
+.div13{
+    width: 35%;
+padding: 10px 0;
+margin: 227px 0;
+display: flex;
+left: 10%;
+position: absolute;
+justify-content: center;
+border-top: 0;
+border-bottom: 1.5px solid #999;
+border-left: 0;
+border-right: 0;
+outline: none;
+background: transparent;
+}
+
+.div14{
+    width: 35%;
+padding: 10px 0;
+margin: 227px 0;
+display: flex;
+left: 57%;
+position: absolute;
+justify-content: center;
+border-top: 0;
+border-bottom: 1.5px solid #999;
+border-left: 0;
+border-right: 0;
+outline: none;
+background: transparent;
+}
+
+.hd12{
+    position: absolute;
+    left: 20%;
+    top: 93%;
+}
+
+.hd13{
+    position: absolute;
+    left: 63%;
+    top: 93%;
+}
+
+.frm2{
+    width: 600px;
+    height: 700px;
+    position: relative;
+    margin: 3% auto;
+    background: #ffffff;
+    padding: 5px;
+    border: 1px solid #333333;
+}
+.frm3{
+    width: 584px;
+    height: 687px;
+    position: relative;
+    margin:0% auto;
+    background: #ffffff;
+    padding: 5px;
+    border: 1px solid #333333;
+}
+
+.hd14{
+    position: absolute;
+    left: 43%;
+    top: 223px;
+}
+
+.hd15{
+    position: absolute;
+    left: 48%;
+    top: 262px;
+}
+
+.hd7{
+    position: absolute;
+    left: 43%;
+    top: 223px;
+}
+
+.hd8{
+    position: absolute;
+    left: 48%;
+    top: 262px;
+}
+
+.hd16{
+    position: absolute;
+    left: 11%;
+    top: 324px;
+}
+
+.hd17{
+    position: absolute;
+    left: 54%;
+    top: 324px;
+}
+
+.hd18{
+    position: absolute;
+    left: 27%;
+    top:442px;
+}
+
+.hd19{
+    position: absolute;
+    left: 31%;
+    top:384px;
+}
+.hd20{
+    position: absolute;
+    left: 68%;
+    top:442px;
+}
+
+.hd21{
+    position: absolute;
+    left: 20%;
+    margin: 269px 0;
+}
+
+.hd22{
+    position: absolute;
+    left: 61%;
+    margin: 269px 0;
+}
+
+.div15{
+    width: 44%;
+padding: 10px 0;
+margin: -56px 0;
+display: flex;
+left: 28%;
+position: absolute;
+justify-content: center;
+border-top: 0;
+border-bottom: 1.5px solid #999;
+border-left: 0;
+border-right: 0;
+outline: none;
+background: transparent;
+}
+
+.div16{
+    width: 36%;
+    padding: 10px 0;
+    margin: 34px 0;
+    display: flex;
+    left: 8%;
+    position: absolute;
+    justify-content: center;
+    border-top: 0;
+    border-bottom: 1.5px solid #999;
+    border-left: 0;
+    border-right: 0;
+    outline: none;
+    background: transparent;
+}
+
+.div17{
+    width: 36%;
+    padding: 10px 0;
+    margin: 34px 0;
+    display: flex;
+    left: 57%;
+    position: absolute; 
+    justify-content: center;
+    border-top: 0;
+    border-bottom: 1.5px solid #999;
+    border-left: 0;
+    border-right: 0;
+    outline: none;  
+    background: transparent;
+}
+
+.div18{
+    width: 30%;
+    padding: 10px 0;
+    margin: 100px 0;
+    display: flex;
+    left: 21%;
+    position: absolute; 
+    justify-content: center;
+    border-top: 0;
+    border-bottom: 1.5px solid #999;
+    border-left: 0;
+    border-right: 0;
+    outline: none;  
+    background: transparent;
+}
+
+.div19{
+    width: 30%;
+    padding: 10px 0;
+    margin: 100px 0;
+    display: flex;
+    left: 59%;
+    position: absolute; 
+    justify-content: center;
+    border-top: 0;
+    border-bottom: 1.5px solid #999;
+    border-left: 0;
+    border-right: 0;
+    outline: none;  
+    background: transparent;
+}
+
+.div20{
+    width: 35%;
+    padding: 10px 0;
+    margin: 121px 0;
+    display: flex;
+    left: 37%;
+    position: absolute; 
+    justify-content: center;
+    border-top: 0;
+    border-bottom: 1.5px solid #999;
+    border-left: 0;
+    border-right: 0;
+    outline: none;  
+    background: transparent;
+}
+
+.div21{
+     width: 33%;
+    padding: 10px 0;
+    margin: 126px 0;
+    display: flex;
+    left: 32%;
+    position: absolute; 
+    justify-content: center;
+    border-top: 0;
+    border-bottom: 1.5px solid #999;
+    border-left: 0;
+    border-right: 0;
+    outline: none;  
+    background: transparent;
+}
+
+.div22{
+    width: 33%;
+    padding: 10px 0;
+    margin: 260px 0;
+    display: flex;
+    left: 56%;
+    position: absolute;
+    justify-content: center;
+    border-top: 0;
+    border-bottom: 2.5px solid #999;
+    border-left: 0;
+    border-right: 0;
+    outline: none;
+    background: transparent;
+}
+
+
+.div23{
+    width: 33%;
+padding: 10px 0;
+margin: 260px 0;
+display: flex;
+left: 10%;
+position: absolute;
+justify-content: center;
+border-top: 0;
+border-bottom: 2.5px solid #999;
+border-left: 0;
+border-right: 0;
+outline: none;
+background: transparent;
+}
+
+.i{
+    position: absolute;
+    left: 34%;
+    width: 405px;
+    top: 25%;
+}
+
+::placeholder{
+    color: #000000;
+}
+
+.link1{
+    position: absolute;
+    left:50%;
+}
+
+.input-field5{
+     width: 59%;
+padding: 7px 0;
+margin: -92px 0;
+display: flex;
+justify-content: center;
+align-items: center;
+border-top: 0;
+border-bottom: 2px solid #999;
+border-left: 00;
+border-right: 0;
+outline: none;
+background: transparent;
+top: 75%;
+position: absolute;
+left: 30%;
+}

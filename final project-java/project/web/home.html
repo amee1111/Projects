@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Style.css">
+        <Style>
+            ::placeholder {  
+                color: black; 
+            }     
+        </Style>
+    </head>
+    <body style="background-color: #eaeaea">
+        <div class = "form-box">
+            <h3 style="text-align: center" class="heading"><u>NEW-REGISTRATION</u></h3>
+            <form  action="insert.jsp" method="post" class="input">
+                <input type="text" class="input-field" placeholder="Frist Name" name='name' required>
+                <input type="text" class="input-field" placeholder="Last Name" name='lname' required>
+                <input type="text" class="input-field" placeholder="Gender of baby (F/M)" name='gender' required>
+                <input type="text" class="input-field" placeholder="Father's Name" name='fname' required>
+                
+                <input type="text" class="input-field" placeholder="Mother's Name" name='mname' required>
+                <!--<input type="text" class="date" placeholder="Date of Birth (yyyy-mm-dd)" name='bdate' required>-->
+                <p class="db"> Date Of Birth: </p><input type="date"  class="input-field1" name="bdate" placeholder="Date of Birth" value="" min="1900-01-01" max="2020-12-31">
+                <input type="text" class="input-field2" placeholder="Place of Birth" name='place' required>
+                <input type="datetime" class="input-field3" placeholder="Time of birth(hh:mm:ss)" name='btime' required>
+                <input type="text" class="input-field4" placeholder="Name of the Hospital" name='hospital' required>
+                <input type="submit" style="text-align: center" class="sub-btn1" value="Register">
+            </form>
+                <h4 class="txt"><u>or</u></h4>
+           
+            <form>
+                <a href="home2.html" class="alreadyRegistered" style="text-align: center" >Click here if you have already Registered </a>
+            </form>
+        </div>
+    </body>
+</html>
